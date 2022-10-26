@@ -1,0 +1,93 @@
+.mail_box_title_each{
+    display: flex;
+    border-bottom: 2px solid #2DCCD3;
+    cursor: pointer;
+}
+.unselected_mail_box_title_each{
+    display: flex;
+    cursor: pointer;
+}
+.mailBox_title{
+    position: relative;
+    margin-left: 10px;
+    top: 8px;
+    color: #002554;
+    font-size: 16px;
+    font-weight: 600;
+}
+.unselected_mailBox_title{
+    position: relative;
+    margin-left: 10px;
+    top: 8px;
+    color: #BAC4CE;
+    font-size: 16px;
+    font-weight: 600;
+}
+.noti_badge{
+    padding: 2px 8px;
+    background-color: #2DCCD3;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: fit-content;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px;
+    top: 6px;
+}
+.unselected_noti_badge{
+    padding: 2px 8px;
+    background-color: #e9ecef;
+    color: #BAC4CE;
+    font-size: 14px;
+    height: fit-content;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px;
+    top: 6px;
+}
+.message_search{
+    margin-top: 0px;
+}
+.mobile_version_mailBox{
+    display: none;
+}
+@media all and (max-width: 664px) {
+    .mobile_version_mailBox{
+        display: block;
+    }
+    .web_version_mailBox{
+        display: none;
+    }
+}
+.mobile_mailBox_title_group{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mobile_mailBox_title{
+    width: 100%;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-left: 26px;
+    padding-right: 26px;
+    margin-top: 10px;
+}
+.mobile_inbox{
+    color: #08253E;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 3px solid #95E5E9;
+    padding-bottom: 20px;
+}
+.mobile_index_content{
+    margin-top: 15px;
+    border-bottom: 2px solid #E2E2E2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.topboder{
+    border-top: 2px solid #E2E2E2;
+}
